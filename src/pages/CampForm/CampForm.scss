@@ -1,0 +1,110 @@
+.wrapper {
+    // background-color: white;
+    // position: relative;
+    // height: auto;
+    padding: 20px;
+    // margin: 20px 50px;
+    border-radius: 10px;
+    // box-shadow: 0px 10px 20px rgba(178, 191, 210, 0.344);
+    // box-shadow: 0px 10px 20px #754124;
+    border: 5px solid #754124;
+    // position: relative;
+    @media(max-width:670px) {
+        padding: 5px 15px;
+        border: 3px solid #754124;
+    }
+
+    .page-title {
+        // user-select: none;
+        // user-zoom: inherit;
+        // font-style: normal;
+        // margin: 0 !important;
+        // font-weight: 600;
+        // font-size: 18px;
+        // line-height: 28px;
+        color: #754124;
+        font-family: 'Montserrat-SemiBold';
+        font-size: 37px;
+        font-weight: 800;
+        line-height: 40px;
+        text-align: center;
+
+        @media(max-width:670px) {
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+    }
+
+    .checkboxlabel {
+        margin-bottom: 3px;
+        cursor: pointer;
+        width: -moz-fit-content;
+        width: fit-content;
+        font-size: 14px;
+        color: #2f476b;
+        font-family: 'Montserrat-Medium';
+    }
+
+    .checkbox-row {
+        display: flex;
+        flex-wrap: wrap;
+
+        .checkbox-col {
+            margin-right: 20px;
+            font-family: 'Montserrat-Regular';
+            font-size: 14px;
+            color: #4b4343;
+        }
+
+        @media (max-width: 670px) {
+            display: block;
+
+            .checkbox-col {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .radio-row {
+        .radio-col {
+            margin-top: 10px;
+            font-family: 'Montserrat-Regular';
+            font-size: 14px;
+            color: #4b4343;
+        }
+    }
+
+    .DayPicnic {
+        border-radius: 10px;
+        padding: 20px 40px 30px;
+        margin: 0 80px;
+        box-shadow: 0px 10px 20px #754124;
+
+    }
+
+    .overnight {
+        border-radius: 10px;
+        padding: 20px 40px 30px;
+        margin: 0 80px;
+        box-shadow: 0px 10px 20px #754124;
+    }
+
+    .submit {
+        background: #754124;
+        border: none;
+        width: 100px;
+    }
+
+
+    .errorMessage {
+        // padding-bottom: 5px;
+        font-size: 12px !important;
+        height: 20px;
+        padding-top: 4px;
+        width: fit-content;
+        font-size: 15px;
+        color: red;
+        margin-bottom: 0;
+        font-family: 'Montserrat-Medium';
+    }
+}
